@@ -1,0 +1,17 @@
+name: alfredito
+description: An extension on the Alfred package that includes helpers for validation and code generation for endpoints.
+version: 0.0.1
+repository: https://github.com/tomassasovsky/alfredito.git
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  alfred: ^0.1.5+3
+  meta: ^1.8.0
+
+dev_dependencies:
+  coverage: ^1.1.0
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^3.0.0
